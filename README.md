@@ -1,2 +1,7 @@
-# Court_IQ
-Basketball analytics website. Want to build a website with a dashboard to display stats. Use requests module with API to fetch data. Pandas and motplotlib to clean and format the data. Then use dash or streamlit for the frontend.
+# Court.iq
+Basketball analytics website with a dashboard to display stats. Will begin learning and implementing the FARM(D) tech stack in order to accomplish this. 
+
+Fa (FastAPI - the backbone)
+R (React - the interface)
+M (MongoDB - the storage)
+(D) (Docker - the container)
