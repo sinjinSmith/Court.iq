@@ -23,14 +23,26 @@ M (MongoDB - the storage)
 
 
 Current Project Structure
+
 .
+
 ├── backend/               # FastAPI source code
+
 │   ├── app/
+
 │   │   ├── models/        # Pydantic schemas (Data validation)
+
 │   │   ├── routes/        # API endpoints
+
 │   │   └── database.py    # Motor (Async) connection logic
+
 ├── frontend/              # React application
+
 │   └── src/
+
 │       ├── components/    # Reusable UI elements
+
 │       └── services/      # API abstraction layer (Axios/fetch)
+
 └── docker-compose.yml     # Orchestration for the entire stack
+
